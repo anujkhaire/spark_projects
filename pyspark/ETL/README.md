@@ -18,10 +18,14 @@ $ pip install pyspark
 ```
 $ git clone https://github.com/anujkhaire/spark_projects
 ```
-
-5. run
+5. edit $(USER) to your *USER*@host:~$ in ```/spark_projects/pyspark/ETL/app/conf.json``` for src_path & dest_path
 ```
 $ cd spark_projects/pyspark/ETL/app
+$ gedit conf.json
+```
+
+6. run via spark-submit
+```
 $ make
 $ cd ./deploy && $SPARK_HOME/bin/spark-submit --py-files jobs.zip --files conf.json main.py --job run
 ```

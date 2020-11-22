@@ -1,5 +1,5 @@
 {
     "app_name": "ETL",
-    "src_path": "/home/anujkhaire/Music/spark_code/ETL/app/data",
-    "dest_path": "/home/anujkhaire/Music/spark_code/ETL/app/data"
+    "src_path": "/home/$(USER)/spark_projects/pyspark/ETL/app/data",
+    "dest_path": "/home/$(USER)/spark_projects/pyspark/ETL/app/data"
 }

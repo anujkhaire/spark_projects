@@ -14,7 +14,7 @@ $ unset PYSPARK_DRIVER_PYTHON=jupyter
 
 3. install pyspark to use it in python scripts.
 ```
-$ pip install pyspark
+$ pip3 install pyspark
 ```
 
 4. git clone
